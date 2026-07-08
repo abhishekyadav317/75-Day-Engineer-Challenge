@@ -13,3 +13,4 @@ Become internship-ready by building strong engineering fundamentals.
 
 ## progress
 Day 1 ✅
+Day 2 ✅
