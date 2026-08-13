@@ -44,4 +44,14 @@ def get_valid_amount(prompt , validator , error_message) :
         else :
             print(error_message)
 
+def get_valid_integer(prompt , error_message) :
+    while True:
+
+        try : 
+            value = int(input(prompt))
+        except ValueError :
+            print(error_message)
+            continue
+
+        return value
 
